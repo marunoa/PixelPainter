@@ -1,0 +1,25 @@
+.grid {
+  border: 10px solid black;
+  display: grid;
+}
+
+.cell {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.row {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+
+}
+
+#pp-canvas{
+  margin: 25px auto;
+  width: 800px;
+  height: 525px;
+  box-sizing: border-box;
+}
+

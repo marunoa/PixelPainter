@@ -31,7 +31,9 @@ function createGrid (rows, columns, attributes) {
 
   return grid;
 
-function addAttributes (element, attributes) {
+}
+
+/*function addAttributes (element, attributes) {
 
   if (typeof attributes === "object"){
 
@@ -44,10 +46,14 @@ function addAttributes (element, attributes) {
 
     throw new TypeError('attributes must be an Object!!!');
 
-    }
-
   }
 
-}
+}*/
+
+
+
+
+
+
 
 

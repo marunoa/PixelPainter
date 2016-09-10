@@ -41,6 +41,18 @@ describe('createGrid', function () {
       expect(createGrid(10, 5).children[0].children).to.have.length(5);
     });
 
+  describe('attributes', function () {
+
+    it('If no column value is provided, all attributes should get applied to each grid element', function () {
+
+    });
+
+    it('If a column value is provided, that should be the number of columns returned, along with the attributes applied', function () {
+
+    });
+
+  });
+
   });
 
 });
